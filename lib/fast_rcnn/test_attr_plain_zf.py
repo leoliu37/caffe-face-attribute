@@ -5,7 +5,7 @@
 # Written by Ross Girshick
 # --------------------------------------------------------
 
-"""Test a Fast R-CNN network on an imdb (image database)."""
+"""Test a ZF network on an imdb (image database)."""
 
 from fast_rcnn.config import cfg, get_output_dir
 from fast_rcnn.bbox_transform import clip_boxes, bbox_transform_inv
